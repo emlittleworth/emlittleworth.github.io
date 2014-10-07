@@ -1,0 +1,58 @@
+/**
+ * Basic styling
+ */
+html {
+    background: url(../img/tree-close-up.jpg) no-repeat top right fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+body {
+    font-family: $base-font-family;
+    font-size: $base-font-size;
+    line-height: $base-line-height;
+    font-weight: 300;
+    color: $text-color;
+    -webkit-text-size-adjust: 100%;
+    width: 35%;
+    min-width: 250px;
+    margin: 15% 18% 60px auto;
+}
+
+/**
+ * Headings
+ */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 300;
+}
+
+
+/**
+ * Links
+ */
+a {
+    color: $text-color;
+    text-decoration: none;
+
+    &:hover {
+        color: $text-color;
+        text-decoration: none;
+    }
+}
+
+.text-link {
+    text-color: $text-color;
+    border-bottom: dotted 1px white;
+}
+
+.text-link:hover {
+    color: $text-color;
+    text-decoration: none;
+    border-bottom: none;
+}
+
+.internet-links {
+    color: $internet-links-color;
+}
